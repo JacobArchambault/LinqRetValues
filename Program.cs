@@ -6,7 +6,7 @@ namespace LinqRetValues
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("***** LINQ Return Values *****\n");
             IEnumerable<string> subset = GetStringSubset();
